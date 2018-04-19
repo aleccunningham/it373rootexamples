@@ -1,0 +1,105 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  gcc -v
+    4  sudo apt install build-essential
+    5  gcc -v
+    6  cd code.intro
+    7  ls -al
+    8  gcc -o cpu cpu.c -Wall -Werror
+    9  ./cpu "Sitting Here"
+   10  ./cpu A & ./cpu B & ./cpu C & ./cpu D &
+   11  history
+   12  cd ../HW-CPU*
+   13  ls -al
+   14  python process-run.py -h
+   15  ./process-run.py -h
+   16  python -V
+   17  cd ../.
+   18  python -V
+   19  python --version
+   20  sudo apt install -g python2.7
+   21  sudo apt install -y python2.7
+   22  python -V
+   23  python2.7 -V
+   24  cd HW*
+   25  python2.7 process-run.py -h
+   26  ./process-run.py -h
+   27  sudo chmod 777 process-run.py
+   28  ./process-run.py -h
+   29  python -V
+   30  alias python
+   31  cd /user
+   32  cd ~
+   33  ls -al
+   34  cd .bashrc
+   35  .bashrc
+   36  ls -al
+   37  cd ~/workspace
+   38  ls -al
+   39  sudo apt install nano -y
+   40  cat ~.bashrc
+   41  cd ~
+   42  pwd
+   43  ls -al
+   44  cat /home/cabox/.bashrc
+   45  cat /etc/bash.bashrc
+   46  cd /etc/profile
+   47  cd /etc
+   48  ll
+   49  cd python2.7
+   50  ls -al
+   51  cat sitecustomize.py
+   52  cd ../.
+   53  cat bash.bashrc
+   54  cd ~/workspace
+   55  ls -al
+   56  ll
+   57  cd ../.
+   58  ll
+   59  cat .profile
+   60  cat .bashrc
+   61  cat /.bashrc
+   62  cat .bashrc
+   63  cat .bash_aliases
+   64  touch .bash_aliases
+   65  nano .bash_aliases
+   66  ls -al
+   67  source ~/.bashrc
+   68  python --version
+   69  ls -al
+   70  cd HW*
+   71  ll
+   72  python process-run.py -h
+   73  ./process-run.py -h
+   74  ps -A
+   75  sudo kill 9560
+   76  sudo kill 9561
+   77  sudo kill 9562
+   78  ps -A
+   79  sudo kill 9563
+   80  history
+   81  ./configure
+   82  python
+   83  sudo apt install -y python2.7 python
+   84  python -V
+   85  cd HW*
+   86  python -V
+   87  ls -al
+   88  ./process-run.py -h
+   89  history
+   90  cd code.intro
+   91  gcc --version
+   92  gcc -save-temps cpu.c -Wall -Werror
+   93  gdb gcc
+   94  cd ../.
+   95  gdb --version
+   96  sudo apt install gdb -g
+   97  sudo apt install gdb -y
+   98  gdb --version
+   99  cd code.intro
+  100  gdb ./cpu
+  101  history
+  102  gcc -save-temps cpu.c -o mycpu -Wall -Werror
+  103  gdb mycpu
+  104  history | history.txt
+  105  history >> history.txt
