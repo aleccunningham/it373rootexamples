@@ -1,0 +1,56 @@
+lmbench configuration file
+original write location: /usr/lib/lmbench/bin/x86_64-linux-gnu 
+
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ ls CON*
+CONFIG.jdebettencourt-it373try2-4675169
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ cp CON* ~/workspace/
+
+/CONFIG.jdebettencourt-it373try2-4675169 
+(file begins with DISKS="" line ... )
+
+DISKS=""
+DISK_DESC=""
+OUTPUT=/dev/tty
+ENOUGH=1000000
+FASTMEM="NO"
+FILE=/home/ubuntu/workspace/XXX
+FSDIR=/home/ubuntu/workspace
+INFO=INFO.jdebettencourt-it373try2-4675169
+LINE_SIZE=128
+LOOP_O=0.00001861
+MAIL=no
+TOTAL_MEM=52339
+MB=250
+MHZ="2671 MHz, 0.3744 nanosec clock"
+MOTHERBOARD=""
+NETWORKS=""
+OS="x86_64-linux-gnu"
+PROCESSORS="8"
+REMOTE=""
+SLOWFS="NO"
+SYNC_MAX="1"
+LMBENCH_SCHED="DEFAULT"
+TIMING_O=0
+RSH=rsh
+RCP=rcp
+VERSION=3.0-20170425
+BENCHMARK_HARDWARE=NO
+BENCHMARK_OS=YES
+BENCHMARK_SYSCALL=
+BENCHMARK_SELECT=
+BENCHMARK_SIG=
+BENCHMARK_PROC=
+BENCHMARK_CTX=
+BENCHMARK_PAGEFAULT=
+BENCHMARK_FILE=
+BENCHMARK_MMAP=
+BENCHMARK_PIPE=
+BENCHMARK_UNIX=
+BENCHMARK_UDP=
+BENCHMARK_TCP=
+BENCHMARK_CONNECT=
+BENCHMARK_RPC=
+BENCHMARK_HTTP=
+BENCHMARK_BCOPY=
+BENCHMARK_MEM=
+BENCHMARK_OPS=

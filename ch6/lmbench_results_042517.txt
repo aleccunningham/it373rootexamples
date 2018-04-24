@@ -1,0 +1,123 @@
+lmbench results 4/25/2017
+
+/jdebettencourt-it373try2-4675169.0
+(file starts with the [lmbench3.0 results .... ] line)
+
+[lmbench3.0 results for Linux jdebettencourt-it373try2-4675169 4.9.17-c9 #1 SMP Thu Mar 23 01:38:54 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux]
+[LMBENCH_VER: 3.0-a9]
+[BENCHMARK_HARDWARE: NO]
+[BENCHMARK_OS: YES]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m 128m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: 1000000]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /home/ubuntu/workspace/XXX]
+[FSDIR: /home/ubuntu/workspace]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m 32m 64m]
+[INFO: INFO.jdebettencourt-it373try2-4675169]
+[LINE_SIZE: 128]
+[LOOP_O: 0.00001861]
+[MB: 250]
+[MHZ: 2671 MHz, 0.3744 nanosec clock]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: 8]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: x86_64-linux-gnu]
+[SYNC_MAX: 1]
+[LMBENCH_SCHED: DEFAULT]
+[TIMING_O: 0]
+[LMBENCH VERSION: 3.0-20170425]
+[USER: root]
+[HOSTNAME: jdebettencourt-it373try2-4675169]
+[NODENAME: jdebettencourt-it373try2-4675169]
+[SYSNAME: Linux]
+[PROCESSOR: x86_64]
+[MACHINE: x86_64]
+[RELEASE: 4.9.17-c9]
+[VERSION: #1 SMP Thu Mar 23 01:38:54 UTC 2017]
+[Tue Apr 25 20:29:49 UTC 2017]
+[ 20:29:49 up 19 days, 9:42, 0 users, load average: 5.57, 6.68, 8.23]
+[net: Kernel Interface table]
+[net: Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg]
+[net: eth0       1460 0     33508      0      0 0         30019      0      0      0 BMRU]
+[if: eth0      Link encap:Ethernet  HWaddr 02:42:ac:11:00:2c  ]
+[if: inet addr:172.17.0.44  Bcast:0.0.0.0  Mask:255.255.0.0]
+[if: inet6 addr: fe80::42:acff:fe11:2c/64 Scope:Link]
+[if: UP BROADCAST RUNNING MULTICAST  MTU:1460  Metric:1]
+[if: RX packets:33508 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:30019 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:0 ]
+[if: RX bytes:6961387 (6.9 MB)  TX bytes:10852965 (10.8 MB)]
+[if: ]
+[net: lo        65536 0         0      0      0 0             0      0      0      0 LRU]
+[if: lo        Link encap:Local Loopback  ]
+[if: inet addr:127.0.0.1  Mask:255.0.0.0]
+[if: inet6 addr: ::1/128 Scope:Host]
+[if: UP LOOPBACK RUNNING  MTU:65536  Metric:1]
+[if: RX packets:0 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:0 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:1 ]
+[if: RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)]
+[if: ]
+[mount: none on / type aufs (rw,relatime,si=15f958d7b58b5a3a,dio,dirperm1)]
+[mount: proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)]
+[mount: tmpfs on /dev type tmpfs (rw,nosuid,mode=755)]
+[mount: devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=666)]
+[mount: sysfs on /sys type sysfs (ro,nosuid,nodev,noexec,relatime)]
+[mount: tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,relatime,mode=755)]
+[mount: cgroup on /sys/fs/cgroup/systemd type cgroup (ro,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd)]
+[mount: cgroup on /sys/fs/cgroup/devices type cgroup (ro,nosuid,nodev,noexec,relatime,devices)]
+[mount: cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (ro,nosuid,nodev,noexec,relatime,cpu,cpuacct)]
+[mount: cgroup on /sys/fs/cgroup/blkio type cgroup (ro,nosuid,nodev,noexec,relatime,blkio)]
+[mount: cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (ro,nosuid,nodev,noexec,relatime,net_cls,net_prio)]
+[mount: cgroup on /sys/fs/cgroup/pids type cgroup (ro,nosuid,nodev,noexec,relatime,pids)]
+[mount: cgroup on /sys/fs/cgroup/memory type cgroup (ro,nosuid,nodev,noexec,relatime,memory)]
+[mount: cgroup on /sys/fs/cgroup/cpuset type cgroup (ro,nosuid,nodev,noexec,relatime,cpuset)]
+[mount: cgroup on /sys/fs/cgroup/perf_event type cgroup (ro,nosuid,nodev,noexec,relatime,perf_event)]
+[mount: cgroup on /sys/fs/cgroup/freezer type cgroup (ro,nosuid,nodev,noexec,relatime,freezer)]
+[mount: mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)]
+[mount: /dev/mapper/volg1-lvdata on /mnt type ext4 (ro,relatime,data=ordered)]
+[mount: /dev/mapper/volg1-lvdata on /nix type ext4 (ro,relatime,data=ordered)]
+[mount: /dev/mapper/volg1-lvdata on /mnt/shared type ext4 (ro,relatime,data=ordered)]
+[mount: /dev/mapper/volg1-lvdata on /etc/resolv.conf type ext4 (rw,relatime,data=ordered)]
+[mount: /dev/mapper/volg1-lvdata on /etc/hostname type ext4 (rw,relatime,data=ordered)]
+[mount: /dev/mapper/volg1-lvdata on /etc/hosts type ext4 (rw,relatime,data=ordered)]
+[mount: shm on /dev/shm type tmpfs (rw,nosuid,nodev,noexec,relatime,size=65536k)]
+[mount: /dev/mapper/volg1-lvdata on /root/.ssh/authorized_keys type ext4 (ro,relatime,data=ordered)]
+[mount: /dev/mapper/volg1-lvdata on /home/ubuntu/.ssh/authorized_keys type ext4 (ro,relatime,data=ordered)]
+[mount: devpts on /dev/console type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)]
+[mount: proc on /proc/asound type proc (ro,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc/bus type proc (ro,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc/fs type proc (ro,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc/irq type proc (ro,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc/sys type proc (ro,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc/sysrq-trigger type proc (ro,nosuid,nodev,noexec,relatime)]
+[mount: tmpfs on /proc/kcore type tmpfs (rw,nosuid,mode=755)]
+[mount: tmpfs on /proc/timer_list type tmpfs (rw,nosuid,mode=755)]
+[mount: tmpfs on /proc/timer_stats type tmpfs (rw,nosuid,mode=755)]
+[mount: tmpfs on /proc/sched_debug type tmpfs (rw,nosuid,mode=755)]
+Simple syscall: 0.0560 microseconds
+Simple read: 0.1266 microseconds
+Simple write: 0.0932 microseconds
+Simple stat: 3.8650 microseconds
+Simple fstat: 1.1673 microseconds
+Simple open/close: 7.1809 microseconds
+Select on 10 fd's: 0.2730 microseconds
+Select on 100 fd's: 1.0818 microseconds
+Select on 250 fd's: 2.9282 microseconds
+Select on 500 fd's: 6.0950 microseconds
+Select on 10 tcp fd's: 0.3480 microseconds
+Select on 100 tcp fd's: 3.4171 microseconds
+Select on 250 tcp fd's: 7.3816 microseconds
+Select on 500 tcp fd's: 17.9851 microseconds
+Signal handler installation: 0.1588 microseconds
+Signal handler overhead: 1.2450 microseconds
+Protection fault: 0.4928 microseconds
+Pipe latency: 6.7756 microseconds
+AF_UNIX sock stream latency: 8.7453 microseconds
+fork: Resource temporarily unavailable
+./lmbench: 175: ./lmbench: Cannot fork

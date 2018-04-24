@@ -1,0 +1,636 @@
+lmbench installed files
+
+...
+jdebettencourt:/usr/lib $ cd lmbench
+jdebettencourt:/usr/lib/lmbench $ ls -al
+total 16
+drwxr-xr-x   4 root root 4096 Apr 25 19:41 ./
+drwxr-xr-x 124 root root 4096 Apr 25 19:41 ../
+drwxr-xr-x   3 root root 4096 Apr 25 19:41 bin/
+drwxr-xr-x   2 root root 4096 Apr 25 19:41 scripts/
+jdebettencourt:/usr/lib/lmbench $ cd bin
+jdebettencourt:/usr/lib/lmbench/bin $ ls -al
+total 12
+drwxr-xr-x 3 root root 4096 Apr 25 19:41 ./
+drwxr-xr-x 4 root root 4096 Apr 25 19:41 ../
+drwxr-xr-x 2 root root 4096 Apr 25 19:41 x86_64-linux-gnu/
+jdebettencourt:/usr/lib/lmbench/bin $ cd x*
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ ls -al
+total 2784
+drwxr-xr-x 2 root root   4096 Apr 25 19:41 ./
+drwxr-xr-x 3 root root   4096 Apr 25 19:41 ../
+-rwxr-xr-x 1 root root  35264 May  9  2009 bw_file_rd*
+-rwxr-xr-x 1 root root  39344 May  9  2009 bw_mem*
+-rwxr-xr-x 1 root root  35280 May  9  2009 bw_mmap_rd*
+-rwxr-xr-x 1 root root  35248 May  9  2009 bw_pipe*
+-rwxr-xr-x 1 root root  35336 May  9  2009 bw_tcp*
+-rwxr-xr-x 1 root root  35256 May  9  2009 bw_unix*
+-rwxr-xr-x 1 root root 105064 May  9  2009 cache*
+-rwxr-xr-x 1 root root  35256 May  9  2009 disk*
+-rwxr-xr-x 1 root root  31144 May  9  2009 enough*
+-rwxr-xr-x 1 root root   6200 May  9  2009 flushdisk*
+-rw-r--r-- 1 root root   2832 May  9  2009 getopt.o
+-rwxr-xr-x 1 root root   6160 May  9  2009 hello*
+-rwxr-xr-x 1 root root  31144 May  9  2009 lat_cmd*
+-rwxr-xr-x 1 root root  35328 May  9  2009 lat_connect*
+-rwxr-xr-x 1 root root  35232 May  9  2009 lat_ctx*
+-rwxr-xr-x 1 root root  96880 May  9  2009 lat_dram_page*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_fcntl*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_fifo*
+-rwxr-xr-x 1 root root  35280 May  9  2009 lat_fs*
+-rwxr-xr-x 1 root root  35352 May  9  2009 lat_http*
+-rwxr-xr-x 1 root root  96872 May  9  2009 lat_mem_rd*
+-rwxr-xr-x 1 root root  35256 May  9  2009 lat_mmap*
+-rwxr-xr-x 1 root root  47528 May  9  2009 lat_ops*
+-rwxr-xr-x 1 root root  35296 May  9  2009 lat_pagefault*
+-rwxr-xr-x 1 root root  31136 May  9  2009 lat_pipe*
+-rwxr-xr-x 1 root root  31136 May  9  2009 lat_pmake*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_proc*
+-rwxr-xr-x 1 root root  31152 May  9  2009 lat_rand*
+-rwxr-xr-x 1 root root  35384 May  9  2009 lat_rpc*
+-rwxr-xr-x 1 root root  35352 May  9  2009 lat_select*
+-rwxr-xr-x 1 root root  31160 May  9  2009 lat_sem*
+-rwxr-xr-x 1 root root  35256 May  9  2009 lat_sig*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_syscall*
+-rwxr-xr-x 1 root root  35328 May  9  2009 lat_tcp*
+-rwxr-xr-x 1 root root  39464 May  9  2009 lat_udp*
+-rwxr-xr-x 1 root root  31144 May  9  2009 lat_unix*
+-rwxr-xr-x 1 root root  35304 May  9  2009 lat_unix_connect*
+-rwxr-xr-x 1 root root  35296 May  9  2009 lat_usleep*
+-rw-r--r-- 1 root root   5936 May  9  2009 lib_debug.o
+-rw-r--r-- 1 root root  88016 May  9  2009 lib_mem.o
+-rw-r--r-- 1 root root   5416 May  9  2009 lib_sched.o
+-rw-r--r-- 1 root root  10128 May  9  2009 lib_stats.o
+-rw-r--r-- 1 root root   6192 May  9  2009 lib_tcp.o
+-rw-r--r-- 1 root root  44544 May  9  2009 lib_timing.o
+-rw-r--r-- 1 root root   3032 May  9  2009 lib_udp.o
+-rw-r--r-- 1 root root   3536 May  9  2009 lib_unix.o
+-rwxr-xr-x 1 root root  96872 May  9  2009 line*
+-rwxr-xr-x 1 root root  12176 May  9  2009 lmbench*
+-rw-r--r-- 1 root root 172752 May  9  2009 lmbench.a
+-rwxr-xr-x 1 root root  39776 May  9  2009 lmdd*
+-rwxr-xr-x 1 root root  18880 May  9  2009 lmhttp*
+-rwxr-xr-x 1 root root  31136 May  9  2009 loop_o*
+-rwxr-xr-x 1 root root  31168 May  9  2009 memsize*
+-rwxr-xr-x 1 root root  55920 May  9  2009 mhz*
+-rwxr-xr-x 1 root root   6168 May  9  2009 msleep*
+-rwxr-xr-x 1 root root  96872 May  9  2009 par_mem*
+-rwxr-xr-x 1 root root 418248 May  9  2009 par_ops*
+-rwxr-xr-x 1 root root  35232 May  9  2009 stream*
+-rwxr-xr-x 1 root root  31144 May  9  2009 timing_o*
+-rwxr-xr-x 1 root root  96864 May  9  2009 tlb*
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ cd ~
+jdebettencourt:~ $ pwd
+/home/ubuntu
+jdebettencourt:~ $ cd /usr
+jdebettencourt:/usr $ ls -al
+total 40
+drwxr-xr-x  92 root root 4096 Apr 25 19:41 ./
+drwxr-xr-x 173 root root 4096 Apr 25 16:57 ../
+drwxr-xr-x   2 root root 4096 Apr 25 19:41 bin/
+drwxr-xr-x   2 root root 4096 Apr 10  2014 games/
+drwxr-xr-x  65 root root 4096 Apr 25 19:41 include/
+drwxr-xr-x 124 root root 4096 Apr 25 19:41 lib/
+drwxr-xr-x  19 root root 4096 Nov  1 05:59 local/
+drwxr-xr-x   2 root root 4096 Apr 25 18:11 sbin/
+drwxr-xr-x 317 root root 4096 Apr 25 19:41 share/
+drwxr-xr-x   2 root root 4096 Apr 10  2014 src/
+jdebettencourt:/usr $ cd share
+jdebettencourt:/usr/share $ ls -al
+total 640
+drwxr-xr-x  317 root root  4096 Apr 25 19:41 ./
+drwxr-xr-x   92 root root  4096 Apr 25 19:41 ../
+drwxr-xr-x    2 root root  4096 Nov  1 05:52 GeoIP/
+drwxr-xr-x    2 root root  4096 Nov  1 05:55 ImageMagick-6.7.7/
+drwxr-xr-x    4 root root  4096 Nov  1 05:50 X11/
+drwxr-xr-x    2 root root  4096 Nov  1 05:58 aclocal/
+drwxr-xr-x    3 root root  4096 Nov  1 05:58 aclocal-1.14/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 adduser/
+drwxr-xr-x    6 root root  4096 Nov  1 05:49 alsa/
+drwxr-xr-x    5 root root  4096 Nov  1 05:51 ant/
+drwxr-xr-x    6 root root  4096 Nov  1 05:59 apache2/
+drwxr-xr-x    2 root root  4096 Nov  1 05:50 application-registry/
+drwxr-xr-x    2 root root  4096 Nov  1 05:55 applications/
+drwxr-xr-x    9 root root  4096 Nov  1 06:00 apport/
+drwxr-xr-x    4 root root  4096 Nov  1 05:52 apps/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 apt/
+drwxr-xr-x    2 root root  4096 Nov  1 05:53 apt-file/
+drwxr-xr-x    7 root root  4096 Nov  1 05:58 autoconf/
+drwxr-xr-x    4 root root  4096 Nov  1 05:58 automake-1.14/
+drwxr-xr-x    2 root root  4096 Nov  1 05:50 avahi/
+drwxr-xr-x    2 root root  4096 Nov  1 05:55 awk/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 base-files/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 base-passwd/
+drwxr-xr-x    8 root root  4096 Nov  1 05:57 bash-completion/
+drwxr-xr-x    2 root root  4096 Nov  1 05:50 binfmts/
+drwxr-xr-x    4 root root  4096 Nov  1 05:58 bison/
+drwxr-xr-x    6 root root  4096 Nov  1 05:57 boost-build/
+drwxr-xr-x    4 root root  4096 Nov  1 05:57 boostbook/
+drwxr-xr-x   33 root root  4096 Nov  1 06:00 bug/
+drwxr-xr-x    2 root root  4096 Nov  1 05:48 build-essential/
+drwxr-xr-x    4 root root  4096 Nov  1 05:46 ca-certificates/
+drwxr-xr-x    2 root root  4096 Nov  1 05:50 ca-certificates-java/
+drwxr-xr-x    9 root root  4096 Nov  1 05:48 calendar/
+drwxr-xr-x    7 root root  4096 Nov  1 05:53 cmake-2.8/
+drwxr-xr-x    3 root root  4096 Nov  1 05:50 color/
+drwxr-xr-x    4 root root  4096 Nov  1 05:50 colord/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 common-licenses/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 console-setup/
+drwxr-xr-x    2 root root 16384 Jan 19  2016 consolefonts/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 consoletrans/
+drwxr-xr-x    4 root root  4096 Nov  1 05:52 couchdb/
+drwxr-xr-x    3 root root  4096 Nov  1 05:55 cvs/
+drwxr-xr-x    5 root root  4096 Nov  1 06:00 dbconfig-common/
+drwxr-xr-x    6 root root  4096 Nov  1 05:49 dbus-1/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 debconf/
+drwxr-xr-x    6 root root  4096 Nov  1 05:57 debhelper/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 debianutils/
+drwxr-xr-x    4 root root  4096 Jan 19  2016 dh-python/
+drwxr-xr-x    2 root root  4096 Apr 10  2014 dict/
+drwxr-xr-x 1120 root root  4096 Apr 25 19:41 doc/
+drwxr-xr-x    2 root root  4096 Nov  1 06:00 doc-base/
+drwxr-xr-x    2 root root  4096 Nov  1 05:48 dpkg/
+drwxr-xr-x    7 root root  4096 Nov  1 05:58 emacs/
+drwxr-xr-x    3 root root  4096 Nov  1 05:55 emacs24/
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 et/
+drwxr-xr-x    3 root root  4096 Jan 19  2016 file/
+drwxr-xr-x    5 root root  4096 Nov  1 05:55 fonts/
+drwxr-xr-x    2 root root  4096 Nov  1 05:51 fop/
+drwxr-xr-x    3 root root  4096 Apr 11 20:35 gcc-6/
+drwxr-xr-x    5 root root  4096 Nov  1 05:50 gconf/
+drwxr-xr-x    9 root root  4096 Apr 11 20:35 gdb/
+drwxr-xr-x    6 root root  4096 Nov  1 05:57 gettext/
+drwxr-xr-x    4 root root  4096 Nov  1 05:55 ghostscript/
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 gir-1.0/
+drwxr-xr-x    5 root root  4096 Nov  1 05:55 git-core/
+drwxr-xr-x    3 root root  4096 Nov  1 05:55 git-gui/
+drwxr-xr-x    3 root root  4096 Nov  1 05:55 gitk/
+drwxr-xr-x    3 root root  4096 Nov  1 05:48 gitweb/
+drwxr-xr-x    8 root root  4096 Nov  1 05:57 glib-2.0/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 gnupg/
+drwxr-xr-x    3 root root  4096 Nov  1 05:48 groff/
+drwxr-xr-x    3 root root  4096 Nov  1 05:57 gtk-doc/
+drwxr-xr-x    4 root root  4096 Nov  1 05:50 gvfs/
+drwxr-xr-x    3 root root  4096 Nov  1 05:49 hal/
+drwxr-xr-x    4 root root  4096 Jan 19  2016 i18n/
+drwxr-xr-x    5 root root  4096 Nov  1 06:00 icons/
+drwxr-xr-x    3 root root  4096 Nov  1 05:57 icu/
+drwxr-xr-x    4 root root  4096 Nov  1 05:50 idl/
+drwxr-xr-x    3 root root  4096 Nov  1 05:58 info/
+drwxr-xr-x   10 root root  4096 Nov  1 05:49 initramfs-tools/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 insserv/
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 intltool-debian/
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 java/
+drwxr-xr-x    2 root root  4096 Nov  1 05:51 java-wrappers/
+drwxr-xr-x   11 root root  4096 Nov  1 06:00 javascript/
+drwxr-xr-x   13 root root  4096 Nov  1 05:50 javazi/
+drwxr-xr-x    4 root root  4096 Nov  1 05:51 jetty/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 keyrings/
+drwxr-xr-x    2 root root  4096 Nov  1 05:53 lftp/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 libc-bin/
+drwxr-xr-x    2 root root  4096 Nov  1 05:52 libdbi-perl/
+drwxr-xr-x    3 root root  4096 Nov  1 05:50 libgphoto2/
+drwxr-xr-x    2 root root  4096 Nov  1 05:50 libthai/
+drwxr-xr-x    3 root root  4096 Nov  1 05:58 libtool/
+drwxr-xr-x   20 root root  4096 Apr 11 20:35 lintian/
+drwxr-xr-x    4 root root  4096 Apr 25 19:41 lmbench/
+drwxr-xr-x  187 root root  4096 Nov  1 05:55 locale/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 locales/
+drwxr-xr-x    4 root root 16384 Nov  1 05:55 m17n/
+drwxr-xr-x  109 root root  4096 Apr 25 19:41 man/
+drwxr-xr-x    2 root root  4096 Nov  1 05:48 man-db/
+drwxr-xr-x   41 root root  4096 Nov  1 05:51 maven-repo/
+drwxr-xr-x    6 root root  4096 Nov  1 05:51 maven2/
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 menu/
+drwxr-xr-x    4 root root  4096 Nov  1 05:55 mercurial/
+drwxr-xr-x   14 root root  4096 Nov  1 05:46 mime/
+drwxr-xr-x    2 root root  4096 Nov  1 05:50 mime-info/
+drwxr-xr-x    2 root root  4096 Nov  1 05:58 misc/
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 mpi-default-dev/
+drwxr-xr-x   26 root root  4096 Nov  1 05:52 mysql/
+drwxr-xr-x    2 root root  4096 Nov  1 05:51 nano/
+drwxr-xr-x    3 root root  4096 Nov  1 05:52 nginx/
+drwxr-xr-x    3 root root  4096 Nov  1 05:57 openmpi/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 pam/
+drwxr-xr-x    2 root root  4096 Nov  1 05:49 pam-configs/
+drwxr-xr-x    4 root root  4096 Nov  1 05:52 perl/
+drwxr-xr-x   58 root root  4096 Nov  1 05:58 perl5/
+drwxr-xr-x    4 root root  4096 Nov  1 06:00 php/
+drwxr-xr-x    8 root root  4096 Nov  1 06:00 php5/
+drwxr-xr-x    7 root root  4096 Nov  1 06:00 phpmyadmin/
+drwxr-xr-x   12 root root  4096 Nov  1 06:00 phppgadmin/
+drwxr-xr-x    2 root root  4096 Nov  1 05:55 pixmaps/
+-rwxr-xr-x    1 root root   247 Mar 26  2013 pkg-config-crosswrapper*
+drwxr-xr-x    2 root root  4096 Nov  1 05:57 pkgconfig/
+drwxr-xr-x    3 root root  4096 Nov  1 05:57 po-debconf/
+drwxr-xr-x    4 root root  4096 Nov  1 05:49 polkit-1/
+drwxr-xr-x    6 root root  4096 Nov  1 05:55 poppler/
+drwxr-xr-x    4 root root  4096 Nov  1 06:00 postgresql/
+drwxr-xr-x    5 root root  4096 Nov  1 05:52 postgresql-common/
+drwxr-xr-x    3 root root  4096 Apr 25 18:07 pyshared/
+drwxr-xr-x    7 root root  4096 Nov  1 05:57 python/
+drwxr-xr-x    3 root root  4096 Nov  1 05:46 python-apt/
+drwxr-xr-x    2 root root  4096 Nov  1 05:55 python-keyring/
+drwxr-xr-x    2 root root  4096 Nov  1 05:48 python-wheels/
+drwxr-xr-x    6 root root  4096 Nov  1 05:46 python3/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 readline/
+drwxr-xr-x    3 root root  4096 Nov  1 06:00 reportbug/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 rsyslog/
+drwxr-xr-x    4 root root  4096 Nov  1 05:51 rubygems-integration/
+drwxr-xr-x   10 root root  4096 Nov  1 05:57 sgml/
+drwxr-xr-x    2 root root  4096 Nov  1 05:46 sgml-base/
+drwxr-xr-x    3 root root  4096 Nov  1 05:50 sounds/
+drwxr-xr-x    2 root root  4096 Nov  1 05:52 ssl-cert/
+drwxr-xr-x    3 root root  4096 Nov  1 05:55 subversion/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 sysv-rc/
+drwxr-xr-x    2 root root  4096 Jan 19  2016 tabset/
+drwxr-xr-x    4 root root  4096 Nov  1 05:55 tcltk/
+drwxr-xr-x    5 root root  4096 Nov  1 05:50 themes/
+drwxr-xr-x    2 root root  4096 Nov  1 05:46 unattended-upgrades/
+drwxr-xr-x    6 root root  4096 Nov  1 05:50 upstart/
+drwxr-xr-x    6 root root  4096 Nov  1 05:51 vim/
+drwxr-xr-x    7 root root  4096 Nov  1 05:46 xml/
+drwxr-xr-x    2 root root  4096 Nov  1 05:46 xml-core/
+drwxr-xr-x   40 root root  4096 Nov  1 05:50 zoneinfo/
+jdebettencourt:/usr/share $ cd lmbench
+jdebettencourt:/usr/share/lmbench $ ls -al
+total 16
+drwxr-xr-x   4 root root 4096 Apr 25 19:41 ./
+drwxr-xr-x 317 root root 4096 Apr 25 19:41 ../
+drwxr-xr-x   2 root root 4096 Apr 25 19:41 results/
+drwxr-xr-x   2 root root 4096 Apr 25 19:41 src/
+
+jdebettencourt:/usr/share/lmbench $ cd /usr/bin/
+jdebettencourt:/usr/bin $ ls -al
+total 188744
+drwxr-xr-x  2 root root        4096 Apr 25 19:41 ./
+drwxr-xr-x 92 root root        4096 Apr 25 19:41 ../
+lrwxrwxrwx  1 root root           8 Dec 21  2013 2to3 -> 2to3-2.7*
+...
+...
+-rwxr-xr-x  1 root root         677 May  9  2009 lmbench-run*
+...
+
+jdebettencourt:/usr/bin $ 
+jdebettencourt:/usr/bin $ cd ~
+jdebettencourt:~ $ cd workspace
+jdebettencourt:~/workspace $ lmbench-run
+You must run this as the root user
+jdebettencourt:~/workspace $ sudo lmbench-run
+=====================================================================
+
+                L M B E N C H   C ON F I G U R A T I O N
+                ----------------------------------------
+
+You need to configure some parameters to lmbench.  Once you have configured
+these parameters, you may do multiple runs by saying
+
+        "make rerun"
+
+in the src subdirectory.
+
+NOTICE: please do not have any other activity on the system if you can
+help it.  Things like the second hand on your xclock or X perfmeters
+are not so good when benchmarking.  In fact, X is not so good when
+benchmarking.
+
+=====================================================================
+
+If you are running on an MP machine and you want to try running
+multiple copies of lmbench in parallel, you can specify how many here.
+
+Using this option will make the benchmark run 100x slower (sorry).
+
+NOTE:  WARNING! This feature is experimental and many results are 
+        known to be incorrect or random!
+
+MULTIPLE COPIES [default 1]: 
+=====================================================================
+
+Options to control job placement
+1) Allow scheduler to place jobs
+2) Assign each benchmark process with any attendent child processes
+   to its own processor
+3) Assign each benchmark process with any attendent child processes
+   to its own processor, except that it will be as far as possible
+   from other processes
+4) Assign each benchmark and attendent processes to their own
+   processors
+5) Assign each benchmark and attendent processes to their own
+   processors, except that they will be as far as possible from
+   each other and other processes
+6) Custom placement: you assign each benchmark process with attendent
+   child processes to processors
+7) Custom placement: you assign each benchmark and attendent
+   processes to processors
+
+Note: some benchmarks, such as bw_pipe, create attendent child
+processes for each benchmark process.  For example, bw_pipe
+needs a second process to send data down the pipe to be read
+by the benchmark process.  If you have three copies of the
+benchmark process running, then you actually have six processes;
+three attendent child processes sending data down the pipes and 
+three benchmark processes reading data and doing the measurements.
+
+Job placement selection [default 1]: 
+=====================================================================
+
+Hang on, we are calculating your timing granularity.
+OK, it looks like you can time stuff down to 1000000 usec resolution.
+
+Hang on, we are calculating your timing overhead.
+OK, it looks like your gettimeofday() costs 0 usecs.
+
+Hang on, we are calculating your loop overhead.
+OK, it looks like your benchmark loop costs 0.00001861 usecs.
+
+=====================================================================
+
+Several benchmarks operate on a range of memory.  This memory should be
+sized such that it is at least 4 times as big as the external cache[s]
+on your system.   It should be no more than 80% of your physical memory.
+
+The bigger the range, the more accurate the results, but larger sizes
+take somewhat longer to run the benchmark.
+
+MB [default 36637]: 250
+Checking to see if you have 250 MB; please wait for a moment...
+250MB OK
+250MB OK
+250MB OK
+Hang on, we are calculating your cache line size.
+OK, it looks like your cache line is 128 bytes.
+
+=====================================================================
+
+lmbench measures a wide variety of system performance, and the full suite
+of benchmarks can take a long time on some platforms.  Consequently, we
+offer the capability to run only predefined subsets of benchmarks, one
+for operating system specific benchmarks and one for hardware specific
+benchmarks.  We also offer the option of running only selected benchmarks
+which is useful during operating system development.
+
+Please remember that if you intend to publish the results you either need
+to do a full run or one of the predefined OS or hardware subsets.
+
+SUBSET (ALL|HARWARE|OS|DEVELOPMENT) [default all]: OS
+=====================================================================
+
+This benchmark measures, by default, file system latency.  That can
+take a long time on systems with old style file systems (i.e., UFS,
+FFS, etc.).  Linux' ext2fs and Sun's tmpfs are fast enough that this
+test is not painful.
+
+If you are planning on sending in these results, please don't do a fast
+run.
+
+If you want to skip the file system latency tests, answer "yes" below.
+
+SLOWFS [default no]: 
+=====================================================================
+
+If you are running on an idle network and there are other, identically
+configured systems, on the same wire (no gateway between you and them),
+and you have rsh access to them, then you should run the network part
+of the benchmarks to them.  Please specify any such systems as a space
+separated list such as: ether-host fddi-host hippi-host.
+
+REMOTE [default none]: 
+=====================================================================
+
+Calculating mhz, please wait for a moment...
+mhz: should take approximately 297 seconds
+I think your CPU mhz is 
+
+        2671 MHz, 0.3744 nanosec clock
+
+but I am frequently wrong.  If that is the wrong Mhz, type in your
+best guess as to your processor speed.  It doesn't have to be exact,
+but if you know it is around 800, say 800.  
+
+Please note that some processors, such as the P4, have a core which
+is double-clocked, so on those processors the reported clock speed
+will be roughly double the advertised clock rate.  For example, a
+1.8GHz P4 may be reported as a 3592MHz processor.
+
+Processor mhz [default 2671 MHz, 0.3744 nanosec clock]: 
+=====================================================================
+
+We need a place to store a 250 Mbyte file as well as create and delete a
+large number of small files.  We default to /var/tmp.  If /var/tmp is a
+memory resident file system (i.e., tmpfs), pick a different place.
+Please specify a directory that has enough space and is a local file
+system.
+
+FSDIR [default /var/tmp/lmbench]: /home/ubuntu/workspace
+=====================================================================
+
+lmbench outputs status information as it runs various benchmarks.
+By default this output is sent to /dev/tty, but you may redirect
+it to any file you wish (such as /dev/null...).
+
+Status output file [default /dev/tty]: 
+=====================================================================
+
+There is a database of benchmark results that is shipped with new
+releases of lmbench.  Your results can be included in the database
+if you wish.  The more results the better, especially if they include
+remote networking.  If your results are interesting, i.e., for a new
+fast box, they may be made available on the lmbench web page, which is
+
+        http://www.bitmover.com/lmbench
+
+Mail results [default yes]: n
+OK, no results mailed.
+=====================================================================
+
+Confguration done, thanks.
+
+There is a mailing list for discussing lmbench hosted at BitMover. 
+Send mail to majordomo@bitmover.com to join the list.
+
+Using config in CONFIG.jdebettencourt-it373try2-4675169
+Tue Apr 25 20:29:49 UTC 2017
+Latency measurements
+Benchmark run finished....
+Remember you can find the results of the benchmark 
+under /var/lib/lmbench/results
+bash: fork: retry: No child processes
+jdebettencourt:~/workspace $ cd /var/lib/lmbench/results
+jdebettencourt:/var/lib/lmbench/results $ ls -al
+total 12
+drwxr-xr-x 3 root root 4096 Apr 25 20:29 ./
+drwxr-xr-x 4 root root 4096 Apr 25 19:41 ../
+drwxr-xr-x 2 root root 4096 Apr 25 20:29 x86_64-linux-gnu/
+jdebettencourt:/var/lib/lmbench/results $ cd x*
+jdebettencourt:/var/lib/lmbench/results/x86_64-linux-gnu $ ls -al
+total 16
+drwxr-xr-x 2 root root 4096 Apr 25 20:29 ./
+drwxr-xr-x 3 root root 4096 Apr 25 20:29 ../
+-rw-r--r-- 1 root root 6262 Apr 25 20:30 jdebettencourt-it373try2-4675169.0
+jdebettencourt:/var/lib/lmbench/results/x86_64-linux-gnu $ cp j* ~/workspace/
+jdebettencourt:/var/lib/lmbench/results/x86_64-linux-gnu $ cd ~/workspace/
+jdebettencourt:~/workspace $ ls -al
+total 36
+drwxrwxr-x  6 ubuntu ubuntu 4096 Apr 25 20:34 ./
+drwxr-xr-x 20 ubuntu ubuntu 4096 Apr 25 18:03 ../
+drwxr-xr-x  3 ubuntu ubuntu 4096 Apr  4 17:07 .c9/
+-rw-rw-r--  1 ubuntu ubuntu  699 Nov  1 05:45 README.md
+drwxr-xr-x  7 ubuntu ubuntu 4096 Apr 20 16:26 code/
+drwxr-xr-x  3 ubuntu ubuntu 4096 Apr 25 17:49 conswitch/
+-rw-r--r--  1 ubuntu ubuntu 6262 Apr 25 20:34 jdebettencourt-it373try2-4675169.0
+-rw-r--r--  1 root   root      0 Apr 25 20:29 lmbench
+drwxr-xr-x  7 ubuntu ubuntu 4096 Apr 25 17:27 lmbench3/
+jdebettencourt:~/workspace $
+jdebettencourt:~/workspace $ cd /usr/lib
+jdebettencourt:/usr/lib $ ls -al
+total 30764
+drwxr-xr-x 124 root root         4096 Apr 25 19:41 ./
+drwxr-xr-x  92 root root         4096 Apr 25 19:41 ../
+drwxr-xr-x   2 root root         4096 Dec 10  2014 X11/
+...
+drwxr-xr-x   4 root root         4096 Apr 25 19:41 lmbench/
+...
+drwxr-xr-x   2 root root         4096 Nov  1 05:58 valgrind/
+drwxr-xr-x  59 root root         4096 Apr 25 18:11 x86_64-linux-gnu/
+jdebettencourt:/usr/lib $ cd lmbench
+jdebettencourt:/usr/lib/lmbench $ ls -al
+total 16
+drwxr-xr-x   4 root root 4096 Apr 25 19:41 ./
+drwxr-xr-x 124 root root 4096 Apr 25 19:41 ../
+drwxr-xr-x   3 root root 4096 Apr 25 19:41 bin/
+drwxr-xr-x   2 root root 4096 Apr 25 19:41 scripts/
+jdebettencourt:/usr/lib/lmbench $ cd scripts
+jdebettencourt:/usr/lib/lmbench/scripts $ ls -al
+total 436
+drwxr-xr-x 2 root root  4096 Apr 25 19:41 ./
+drwxr-xr-x 4 root root  4096 Apr 25 19:41 ../
+-rw-r--r-- 1 root root    68 Sep  4  2005 Makefile
+-rw-r--r-- 1 root root   356 Jan 31  2000 README
+-rwxr-xr-x 1 root root 16206 May  9  2009 STUFF*
+-rw-r--r-- 1 root root    93 Jan 31  2000 TODO
+-rwxr-xr-x 1 root root  1403 May  9  2009 allctx*
+-rwxr-xr-x 1 root root  1324 May  9  2009 allmem*
+-rwxr-xr-x 1 root root  8988 May  9  2009 bargraph*
+-rwxr-xr-x 1 root root  1157 May  9  2009 bghtml*
+-rwxr-xr-x 1 root root 10698 May  9  2009 build*
+-rwxr-xr-x 1 root root   210 Jun 27  2006 compiler*
+-rwxr-xr-x 1 root root   103 Feb  1  2000 config*
+-rwxr-xr-x 1 root root 21770 May  9  2009 config-run*
+-rwxr-xr-x 1 root root  4931 May  9  2009 config-scaling*
+-rwxr-xr-x 1 root root   686 May  9  2009 depend*
+-rwxr-xr-x 1 root root   698 May  9  2009 do_ctx*
+-rwxr-xr-x 1 root root 21648 May  9  2009 getbg*
+-rwxr-xr-x 1 root root  5281 May  9  2009 getbw*
+-rwxr-xr-x 1 root root  1624 May  9  2009 getctx*
+-rwxr-xr-x 1 root root  1516 May  9  2009 getdisk*
+-rwxr-xr-x 1 root root   652 May  9  2009 getlist*
+-rwxr-xr-x 1 root root  1568 May  9  2009 getmax*
+-rwxr-xr-x 1 root root  1427 May  9  2009 getmem*
+-rwxr-xr-x 1 root root 10027 May  9  2009 getpercent*
+-rwxr-xr-x 1 root root  1926 Jan 31  2000 getresults*
+-rwxr-xr-x 1 root root 27514 May  9  2009 getsummary*
+-rwxr-xr-x 1 root root   874 May  9  2009 gifs*
+-rwxr-xr-x 1 root root 43002 May  9  2009 gnu-os*
+-rwxr-xr-x 1 root root 23050 May  9  2009 graph*
+-rwxr-xr-x 1 root root  3235 May  9  2009 html-list*
+-rwxr-xr-x 1 root root  1548 May  9  2009 html-man*
+-rwxr-xr-x 1 root root    99 Feb  1  2000 info*
+-rw-r--r-- 1 root root  1232 Feb  1  2000 info-template
+-rwxr-xr-x 1 root root 12179 May  9  2009 lmbench*
+-rwxr-xr-x 1 root root   301 Jun 27  2006 make*
+-rwxr-xr-x 1 root root  3590 May  9  2009 man2html*
+-rwxr-xr-x 1 root root   495 Feb  1  2000 mkrelease*
+-rwxr-xr-x 1 root root   584 May  9  2009 new2oldctx*
+-rwxr-xr-x 1 root root  2184 May  9  2009 opercent*
+-rwxr-xr-x 1 root root   513 May  9  2009 os*
+-rwxr-xr-x 1 root root   225 Jul  6  2000 output*
+-rwxr-xr-x 1 root root  2271 May  9  2009 percent*
+-rwxr-xr-x 1 root root 16477 May  9  2009 rccs*
+-rwxr-xr-x 1 root root   744 May  9  2009 results*
+-rwxr-xr-x 1 root root   644 May  9  2009 save*
+-rwxr-xr-x 1 root root  1059 May  9  2009 stats*
+-rwxr-xr-x 1 root root 37843 May  9  2009 statsummary*
+-rwxr-xr-x 1 root root  1748 Jan 31  2000 synchronize*
+-rwxr-xr-x 1 root root   604 Feb  1  2000 target*
+-rwxr-xr-x 1 root root   402 May  9  2009 version*
+-rwxr-xr-x 1 root root   118 Feb  1  2000 xroff*
+
+jdebettencourt:/usr/lib/lmbench/scripts $ cd ../bin
+jdebettencourt:/usr/lib/lmbench/bin $ ls -al
+total 12
+drwxr-xr-x 3 root root 4096 Apr 25 19:41 ./
+drwxr-xr-x 4 root root 4096 Apr 25 19:41 ../
+drwxr-xr-x 2 root root 4096 Apr 25 20:30 x86_64-linux-gnu/
+jdebettencourt:/usr/lib/lmbench/bin $ cd x*
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ ls -al
+total 2788
+drwxr-xr-x 2 root root   4096 Apr 25 20:30 ./
+drwxr-xr-x 3 root root   4096 Apr 25 19:41 ../
+-rw-r--r-- 1 root root    775 Apr 25 20:29 CONFIG.jdebettencourt-it373try2-4675169
+-rwxr-xr-x 1 root root  35264 May  9  2009 bw_file_rd*
+-rwxr-xr-x 1 root root  39344 May  9  2009 bw_mem*
+-rwxr-xr-x 1 root root  35280 May  9  2009 bw_mmap_rd*
+-rwxr-xr-x 1 root root  35248 May  9  2009 bw_pipe*
+-rwxr-xr-x 1 root root  35336 May  9  2009 bw_tcp*
+-rwxr-xr-x 1 root root  35256 May  9  2009 bw_unix*
+-rwxr-xr-x 1 root root 105064 May  9  2009 cache*
+-rwxr-xr-x 1 root root  35256 May  9  2009 disk*
+-rwxr-xr-x 1 root root  31144 May  9  2009 enough*
+-rwxr-xr-x 1 root root   6200 May  9  2009 flushdisk*
+-rw-r--r-- 1 root root   2832 May  9  2009 getopt.o
+-rwxr-xr-x 1 root root   6160 May  9  2009 hello*
+-rwxr-xr-x 1 root root  31144 May  9  2009 lat_cmd*
+-rwxr-xr-x 1 root root  35328 May  9  2009 lat_connect*
+-rwxr-xr-x 1 root root  35232 May  9  2009 lat_ctx*
+-rwxr-xr-x 1 root root  96880 May  9  2009 lat_dram_page*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_fcntl*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_fifo*
+-rwxr-xr-x 1 root root  35280 May  9  2009 lat_fs*
+-rwxr-xr-x 1 root root  35352 May  9  2009 lat_http*
+-rwxr-xr-x 1 root root  96872 May  9  2009 lat_mem_rd*
+-rwxr-xr-x 1 root root  35256 May  9  2009 lat_mmap*
+-rwxr-xr-x 1 root root  47528 May  9  2009 lat_ops*
+-rwxr-xr-x 1 root root  35296 May  9  2009 lat_pagefault*
+-rwxr-xr-x 1 root root  31136 May  9  2009 lat_pipe*
+-rwxr-xr-x 1 root root  31136 May  9  2009 lat_pmake*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_proc*
+-rwxr-xr-x 1 root root  31152 May  9  2009 lat_rand*
+-rwxr-xr-x 1 root root  35384 May  9  2009 lat_rpc*
+-rwxr-xr-x 1 root root  35352 May  9  2009 lat_select*
+-rwxr-xr-x 1 root root  31160 May  9  2009 lat_sem*
+-rwxr-xr-x 1 root root  35256 May  9  2009 lat_sig*
+-rwxr-xr-x 1 root root  35248 May  9  2009 lat_syscall*
+-rwxr-xr-x 1 root root  35328 May  9  2009 lat_tcp*
+-rwxr-xr-x 1 root root  39464 May  9  2009 lat_udp*
+-rwxr-xr-x 1 root root  31144 May  9  2009 lat_unix*
+-rwxr-xr-x 1 root root  35304 May  9  2009 lat_unix_connect*
+-rwxr-xr-x 1 root root  35296 May  9  2009 lat_usleep*
+-rw-r--r-- 1 root root   5936 May  9  2009 lib_debug.o
+-rw-r--r-- 1 root root  88016 May  9  2009 lib_mem.o
+-rw-r--r-- 1 root root   5416 May  9  2009 lib_sched.o
+-rw-r--r-- 1 root root  10128 May  9  2009 lib_stats.o
+-rw-r--r-- 1 root root   6192 May  9  2009 lib_tcp.o
+-rw-r--r-- 1 root root  44544 May  9  2009 lib_timing.o
+-rw-r--r-- 1 root root   3032 May  9  2009 lib_udp.o
+-rw-r--r-- 1 root root   3536 May  9  2009 lib_unix.o
+-rwxr-xr-x 1 root root  96872 May  9  2009 line*
+-rwxr-xr-x 1 root root  12176 May  9  2009 lmbench*
+-rw-r--r-- 1 root root 172752 May  9  2009 lmbench.a
+-rwxr-xr-x 1 root root  39776 May  9  2009 lmdd*
+-rwxr-xr-x 1 root root  18880 May  9  2009 lmhttp*
+-rwxr-xr-x 1 root root  31136 May  9  2009 loop_o*
+-rwxr-xr-x 1 root root  31168 May  9  2009 memsize*
+-rwxr-xr-x 1 root root  55920 May  9  2009 mhz*
+-rwxr-xr-x 1 root root   6168 May  9  2009 msleep*
+-rwxr-xr-x 1 root root  96872 May  9  2009 par_mem*
+-rwxr-xr-x 1 root root 418248 May  9  2009 par_ops*
+-rwxr-xr-x 1 root root  35232 May  9  2009 stream*
+-rwxr-xr-x 1 root root  31144 May  9  2009 timing_o*
+-rwxr-xr-x 1 root root  96864 May  9  2009 tlb*
+
+
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ cp CON* ~/workspace/
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ ls CON*
+CONFIG.jdebettencourt-it373try2-4675169
+jdebettencourt:/usr/lib/lmbench/bin/x86_64-linux-gnu $ 
